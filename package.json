@@ -1,0 +1,27 @@
+{
+  "name": "getaddress",
+  "caption": "getAddressXXX",
+  "version": "0.0.2",
+  "description": "Получение списка адресов XXX",
+  "icon": "delivery",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "nodemon index.js isSingle"
+  },
+  "keywords": [
+    "module",
+    "sacred",
+    "sacred app's"
+  ],
+  "author": "SACRED APP's",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "nodemonConfig": {
+    "env": {
+      "isFork": "true"
+    }
+  }
+}
